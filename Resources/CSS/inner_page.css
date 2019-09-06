@@ -67,11 +67,12 @@ h3{
 }
 
 /****************************** HEADER ****************************************/
+
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(Img/cover-image.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 15vh;
     background-attachment: fixed;
 }
 
@@ -110,13 +111,6 @@ h4{
     width: 17%;
 }
 
-.whitelogo{
-    display: none;
-    float: left;
-    height: 50px;
-    margin-top: 5px;
-    margin-left: -50px;
-}
 
 /*------------MAIN NAV BAR----------------*/
 
@@ -142,13 +136,9 @@ nav .row{
     text-transform: upperca;
     font-size: 90%;
     transition: border-bottom 0.2s;
-    border-bottom: 2px solid transparent;
-}
-
-.main-nav li a:hover,
-.main-nav li a:active{
     border-bottom: 2px solid #21b2a6;
 }
+
 
 /*------------STICKY NAV BAR----------------*/
 
@@ -239,8 +229,7 @@ input[type=submit]:active{
 
 
 /******************************* SECTION EVENT *******************************************/
-.event-description
-{
+.event-description{
     height: 100%;
     padding: 5%;
     padding-top: 1%;
@@ -255,8 +244,7 @@ input[type=submit]:active{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.section-events img
-{
+.section-events img{
     width: 100%;
 }
 .section-events p{
@@ -293,33 +281,6 @@ input[type=submit]:active{
 .section-newsletter h3{
     color: black;
 }
-
-/******************************* SECTION On Air with BioBytes *******************************************/
-.section-on_air_with_biobytes
-{
-    background:url("Img/on_air_background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding-top: 210px;
-    padding-bottom: 220px;
-}
-
-.section-on_air_with_biobytes h2{
-    color: rgb(255, 255, 255);
-    padding-top: 20px;
-    padding-bottom: 10px;
-} 
-
-.section-on_air_with_biobytes p{
-    padding-bottom: 15px;
-    text-align: center;
-    letter-spacing: 1px;
-    font-weight: 400;
-    color: #ffffff
-}
-
-
 
 
 /******************************* SECTION TEAM *******************************************/
